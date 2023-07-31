@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.JdNavigationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/title_jd_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="无人车集群多功能安卓APP"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/now_position_x_jd_text"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:text="当前X坐标："
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/now_position_x_jd_edit"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="-28dp"
+                android:layout_toEndOf="@id/now_position_x_jd_text"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/now_position_y_jd_text"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:text="当前Y坐标："
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/now_position_y_jd_edit"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="-28dp"
+                android:layout_toEndOf="@id/now_position_y_jd_text"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/target_position_x_jd_text"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:text="目标X坐标："
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/target_position_x_jd_edit"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="-28dp"
+                android:layout_toEndOf="@id/target_position_x_jd_text"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/target_position_y_jd_text"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:text="目标Y坐标："
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/target_position_y_jd_edit"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="-28dp"
+                android:layout_toEndOf="@id/target_position_y_jd_text"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/now_state_jd_text"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:text="当前状态："
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/now_state_jd_edit"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="-28dp"
+                android:layout_toEndOf="@id/now_state_jd_text"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/start_navigation_jd_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="-1dp"
+            android:text="开始导航"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <com.example.myapplication.MyVLCVideoLayout
+                android:id="@+id/video_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+            </com.example.myapplication.MyVLCVideoLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
