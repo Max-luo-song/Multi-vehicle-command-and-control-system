@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">多车指控系统</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_local_btn_text">播放本地</string>
+    <string name="continue_btn_text">继续</string>
+    <string name="pause_btn_text">暂停</string>
+    <string name="video_des_text">可通过点击播放本地按钮播放本地视频，也可搜索其他视频</string>
+</resources>

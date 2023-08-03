@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/fragment_control.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/fragment_jd_navigation.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/fragment_navigation.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/fragment_recognition.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/fragment_xd_navigation.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/start_err_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Desktop/MyApplication/app/src/main/res/layout/start_page.xml" value="0.17916666666666667" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/drawable/btn_normal.xml" value="0.1" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/drawable/btn_pressed.xml" value="0.1" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/drawable/btn_selector.xml" value="0.1" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/drawable/search_view.xml" value="0.1" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.16822916666666668" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_control.xml" value="0.16822916666666668" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_jd_navigation.xml" value="0.22" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_jwd_navigation.xml" value="0.16666666666666666" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_navigation.xml" value="0.25885416666666666" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_recognition.xml" value="0.22" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_video.xml" value="0.22" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/fragment_xd_navigation.xml" value="0.16666666666666666" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/start_err_page.xml" value="0.25885416666666666" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/layout/start_page.xml" value="0.25885416666666666" />
+        <entry key="..\:/Unmanned_vehicle_project/Andriod-0.4/MyApplication/app/src/main/res/menu/navigation.xml" value="0.25885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
