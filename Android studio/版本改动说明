@@ -9,3 +9,8 @@
         多界面共用全局变量参考：https://blog.csdn.net/qq_42583263/article/details/106837589
         Fragment中使用findViewId参考：https://blog.csdn.net/weixin_62715668/article/details/126349378
         Android studio中使用map参考：https://blog.csdn.net/victor_E_N_01185/article/details/130833270
+20230806——GLS 
+        完成界面fragment_Jd_navigation/fragment_JWd_navigation的后端编写(未测试)
+        遗留问题：
+        1)对于start_page中各rosbridgeclient的是否连接成功判断条件未知
+        2)car2和car3初始位置偏移部分后端代码未编写(对应ROS-initial_Pose部分)
