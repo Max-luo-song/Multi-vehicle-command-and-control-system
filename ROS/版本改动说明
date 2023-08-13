@@ -1,2 +1,14 @@
 20230806——GLS
     上传导航相关ROS包(可能需要一定调整)，目前缺少set_speed和initial_pose部分功能包，在本版本中合并了CGY的20230803版本
+20230813——GLS
+    完成单机测试，上传功能包列表及功能描述如下：
+        initpose_pub：给car2和car3初始位置
+        publish_pose：三辆车发布位姿
+        set_speed：循环转发速度
+        subscribe_goal_jd：绝对导航实现
+        subscribe_goal_xd：相对导航实现
+        subscribe_goal_jwd：经纬度导航实现
+        yolo_realsense：识别实现
+    先启动robot，执行start_all.sh即可启动
+    待完成内容：给每一个导航写一个action_state_number话题监控状态
+        
