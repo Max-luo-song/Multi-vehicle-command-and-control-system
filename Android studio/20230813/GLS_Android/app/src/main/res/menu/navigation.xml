@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:orderInCategory="0"
+        android:id="@+id/navigation"
+        android:icon="@drawable/navigation"
+        android:title="导航"
+        ></item>
+
+    <item
+        android:orderInCategory="1"
+        android:id="@+id/control"
+        android:icon="@drawable/control"
+        android:title="控制"
+        ></item>
+
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/recognition"
+        android:icon="@drawable/recognition"
+        android:title="识别"
+        ></item>
+
+    <item
+        android:orderInCategory="3"
+        android:id="@+id/video"
+        android:icon="@drawable/video"
+        android:title="视频"
+        ></item>
+</menu>
