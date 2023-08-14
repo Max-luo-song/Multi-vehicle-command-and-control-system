@@ -11,4 +11,7 @@
         yolo_realsense：识别实现
     先启动robot，执行start_all.sh即可启动
     待完成内容：给每一个导航写一个action_state_number话题监控状态
+20230814——GLS
+    较上一版本增加了每一个导航写一个action_state_number话题监控状态，其余并未改动
+    上传内容不包括识别的yolo_relasense，其余全部上传了
         
