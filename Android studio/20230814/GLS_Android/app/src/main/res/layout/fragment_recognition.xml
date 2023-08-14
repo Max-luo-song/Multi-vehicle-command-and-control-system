@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RecognitionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Spinner
+            android:id="@+id/cars_spinner_recognition"
+            android:layout_width="275dp"
+            android:layout_height="41dp"
+            android:background="#EDE8E8"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.123" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="360dp"
+            android:layout_height="210dp"
+            android:elevation="10dp"
+            android:background="#B7B7B7"
+            android:backgroundTint="#B7B7B7"/>
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="360dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:elevation="10dp"
+            android:background="#ECE8E8"/>
+
+
+        <Button
+            android:id="@+id/get_img_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:elevation="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="14dp"
+            android:text="图像识别"
+            android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.example.myapplication.MyVLCVideoLayout
+                android:id="@+id/video_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+            </com.example.myapplication.MyVLCVideoLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

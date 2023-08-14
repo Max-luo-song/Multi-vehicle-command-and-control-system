@@ -1,0 +1,42 @@
+<launch>
+  <arg name="address" default='0.0.0.0'/>
+  <arg name="port" default="9090" />
+  <arg name="map_file" default="~/map.yaml"/>
+  
+  <!--启动robot-->
+  <!--<include file="$(find turtlebot3_bringup)/launch/turtlebot3_robot.launch">
+  </include> -->
+
+  <!--启动rosbridge_server-->
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <arg name="address" value="$(arg address)"/>
+    <arg name="port" value="$(arg port)"/>
+  </include>
+
+  <!--启动turtlebot3_navigation-->
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <arg name="map_file" value="$(arg map_file)"/>
+  </include>
+  
+  <!--启动publish_pose节点-->
+  <node name="publish_pose" pkg="publish_pose" type="publish_pose" output="screen"/>
+
+  <!--启动subscribe_goal_jd节点-->
+  <node name="subscribe_goal_jd" pkg="subscribe_goal_jd" type="subscribe_goal_jd" output="screen"/>
+
+  <!--启动subscribe_goal_xd节点-->
+  <node name="subscribe_goal_xd" pkg="subscribe_goal_xd" type="subscribe_goal_xd" output="screen"/>
+
+  <!--启动subscribe_goal_jwd节点-->
+  <node name="subscribe_goal_jwd" pkg="subscribe_goal_jwd" type="subscribe_goal_jwd" output="screen"/>
+
+  <!--启动initpose_pub节点-->
+  <node name="initpose_pub" pkg="initpose_pub" type="initpose_pub" output="screen"/>
+
+
+  <!--启动rs_cal_pub节点-->
+  <!--<node name="yolo_realsense" pkg="yolo_realsense" type="rs_cal_pub.py" output="screen"/>-->
+
+  <!--启动set_speed节点-->
+  <node name="set_speed" pkg="set_speed" type="set_speed" output="screen"/>
+</launch>
